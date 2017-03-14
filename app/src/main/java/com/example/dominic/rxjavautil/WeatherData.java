@@ -111,4 +111,22 @@ public class WeatherData {
         public String description;
         public String icon;
     }
+
+    @Override
+    public String toString() {
+        return "WeatherData{" +
+                "coord=" + coord +
+                ", base='" + base + '\'' +
+                ", main=" + main +
+                ", visibility=" + visibility +
+                ", wind=" + wind +
+                ", clouds=" + clouds +
+                ", dt=" + dt +
+                ", sys=" + sys +
+                ", id=" + id +
+                ", name='" + name + '\'' +
+                ", cod=" + cod +
+                ", weather=" + weather +
+                '}';
+    }
 }
